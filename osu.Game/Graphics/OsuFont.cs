@@ -40,6 +40,11 @@ namespace osu.Game.Graphics
         public static FontUsage GetFont(Typeface typeface = Typeface.Torus, float size = DEFAULT_FONT_SIZE, FontWeight weight = FontWeight.Medium, bool italics = false, bool fixedWidth = false)
         {
             string familyString = GetFamilyString(typeface);
+            return GetFont(familyString, size, weight, italics, fixedWidth);
+        }
+
+        public static FontUsage GetFont(string familyString, float size = DEFAULT_FONT_SIZE, FontWeight weight = FontWeight.Medium, bool italics = false, bool fixedWidth = false)
+        {
             return new FontUsage(familyString, size, GetWeightString(familyString, weight), getItalics(italics), fixedWidth);
         }
 
