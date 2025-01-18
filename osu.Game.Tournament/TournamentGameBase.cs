@@ -68,7 +68,7 @@ namespace osu.Game.Tournament
             Resources.AddStore(new DllResourceStore(typeof(TournamentGameBase).Assembly));
 
             Resources.AddStore(new NamespacedResourceStore<byte[]>(new DllResourceStore(typeof(TournamentGameBase).Assembly), @"Resources"));
-            AddFont(Resources, @"Fonts/LTGlockenspielBlack/LTGlockenspielBlack");
+            AddFont(Resources, @"Fonts/LTGlockenspielBlack/LTGlockenspielBlack-Regular");
             AddFont(Resources, @"Fonts/LTGlockenspielBlack/LTGlockenspielBlack-Bold");
             AddFont(Resources, @"Fonts/LTGlockenspielBlack/LTGlockenspielBlack-Italic");
             AddFont(Resources, @"Fonts/LTGlockenspielBlack/LTGlockenspielBlack-BoldItalic");

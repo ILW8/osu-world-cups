@@ -181,7 +181,6 @@ namespace osu.Game.Graphics.UserInterface
             Depth = -1,
             Origin = Anchor.Centre,
             Anchor = Anchor.Centre,
-            // Font = OsuFont.GetFont(weight: FontWeight.Bold)
             Font = OsuFont.GetFont(@"LTGlockenspielBlack", weight: FontWeight.Bold),
         };
     }
